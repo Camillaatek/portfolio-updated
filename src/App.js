@@ -1,5 +1,5 @@
 import About from "./components/about/About";
-import Example from "./components/Example";
+import Home from "./components/Home";
 import Navbar from "./components/navbar/Navbar";
 import "./sass/main.scss";
 import { useNavigate } from "react-router-dom";
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Example />
+      <Home />
       <About />
       <Projects />
       <Contact />

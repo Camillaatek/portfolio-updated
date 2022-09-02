@@ -6,7 +6,7 @@ import ecommerce from "../../media/ecommrece2.JPG";
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h2>Projects</h2>
       <p>
         A few of my projects from when I went to Noroff, and also from my spare
@@ -16,7 +16,7 @@ const Projects = () => {
         image={holidaze}
         title="Holidaze"
         info="A hotel booking site made for my last exam at Noroff. We made our own API 
-        with <BoldText>world</BoldText>Strapi and made it public with heroku, also built with ReactJS. The Hotel site has a visitor site with Search bar, details about 
+        with <BoldText>world</BoldText>Strapi and made it public with heroku, also built with ReactJS. The Hotel site has a visitor site including Search bar with auto dropdown, details about 
         the hotels and a contact page that goes to the admin for Holidaze. The admin page has a login section that makes use of JWT tokens, messages from cantact form and are able to delete/create a new establishment."
       />
       <ProjectsItem

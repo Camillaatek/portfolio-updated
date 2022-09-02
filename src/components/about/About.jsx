@@ -2,7 +2,7 @@ import vector from "../../media/vector.jpg";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about__info">
         <p className="about__info__hello">HELLO EVERYBODY, I AM</p>
         <h1>CAMILLA ÅMLI</h1>

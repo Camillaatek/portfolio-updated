@@ -5,7 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h2>Let's get started.</h2>
       <p>Click the icons below to get in touch!</p>
       <ul className="contact__icons">
