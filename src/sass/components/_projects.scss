@@ -1,0 +1,40 @@
+.projects {
+  margin: 20px;
+  h2 {
+    font-size: 3.125rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    font-family: $primaryFont;
+  }
+  p {
+    padding: 10px 0;
+    font-size: 0.875rem;
+    line-height: 150%;
+
+    font-family: $primaryFont;
+  }
+}
+
+@media screen and (min-width: 959px) {
+  .projects {
+    margin: 50px;
+    h2 {
+      font-size: 5.625rem;
+    }
+    p {
+      font-size: 1.25rem;
+      letter-spacing: -0.04em;
+      width: 600px;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .projects {
+    max-width: 1500px;
+    margin: auto;
+    p {
+      padding-bottom: 60px;
+    }
+  }
+}
