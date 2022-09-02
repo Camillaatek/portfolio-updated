@@ -2,6 +2,7 @@ import React from "react";
 import ProjectsItem from "./ProjectsItem";
 import test from "../../media/test.jpg";
 import holidaze from "../../media/holidaze.JPG";
+import ecommerce from "../../media/ecommrece2.JPG";
 
 const Projects = () => {
   return (
@@ -19,7 +20,7 @@ const Projects = () => {
         the hotels and a contact page that goes to the admin for Holidaze. The admin page has a login section that makes use of JWT tokens, messages from cantact form and are able to delete/create a new establishment."
       />
       <ProjectsItem
-        image={test}
+        image={ecommerce}
         title="Project 2"
         info="when an unknown printer took a galley of type and scrambled it to make a
         type specimen book. It has survived not only five centuries, but also.when an unknown printer took a galley of type and scrambled it to make a
