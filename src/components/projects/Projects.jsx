@@ -21,10 +21,8 @@ const Projects = () => {
       />
       <ProjectsItem
         image={ecommerce}
-        title="Project 2"
-        info="when an unknown printer took a galley of type and scrambled it to make a
-        type specimen book. It has survived not only five centuries, but also.when an unknown printer took a galley of type and scrambled it to make a
-        type specimen book. It has survived not only five centuries, but also."
+        title="Electronics"
+        info="Electronics is a fictional e-commerce website for Semester Project 2. The website has a search function and featured products. Login function with JWT tokens that will take you to the admin page. Adding an item to the cart saves it in LocalStorage, and also calculates the total sum."
       />
       <ProjectsItem
         image={test}
