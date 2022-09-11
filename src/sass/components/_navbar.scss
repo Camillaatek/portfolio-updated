@@ -59,6 +59,7 @@
 .header .nav-item a:hover {
   padding-bottom: 12px;
   border-bottom: 3px solid var(--secondary-color);
+  transition: all 0.2s;
 }
 
 .hamburger {
