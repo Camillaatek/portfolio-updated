@@ -80,7 +80,7 @@ const Projects = () => {
                 return (
                   <div className="pop-up__card">
                     <div className="pop-up__grid--1">
-                      <h1 className="head-title">{pop.title}</h1>
+                      <h1 className="card-title head-title">{pop.title}</h1>
                       <p>{pop.description}</p>
                       <ul>{pop.list}</ul>
                     </div>

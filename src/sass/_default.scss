@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
   font-family: $primaryFont;
 }
 
@@ -26,7 +26,6 @@
 .head-title--2 {
   font-size: 5rem;
   font-weight: 900;
-
   background-image: linear-gradient(45deg, #ff771c, #ffbe05);
   background-clip: text;
   -webkit-text-fill-color: transparent;
