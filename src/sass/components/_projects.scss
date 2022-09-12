@@ -195,7 +195,26 @@
 }
 
 @media screen and (max-width: 430px) {
+  .project {
+    h1 {
+      font-size: 3.5rem;
+    }
+    img {
+    }
+
+    &__courses {
+      h2 {
+        font-size: 3.5rem;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
   .pop-up {
+    &__grid--1 p {
+      padding: none;
+    }
     &__body {
       height: 100%;
       width: 90%;
