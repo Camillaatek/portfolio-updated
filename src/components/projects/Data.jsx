@@ -71,4 +71,12 @@ export const ProjectData = [
     github: "https://github.com/Camillaatek/SA-nettside",
     demo: "https://stupefied-hawking-661b91.netlify.app/index.html",
   },
+  {
+    id: "8",
+    title: "Maytek.no",
+    description:
+      "Maytek AS er et firma som driver med konsulent tjenester innen teknisk tegning. Nettsiden er laget og designet i Wordpress.",
+    image: "http://maytek.no/onewebstatic/abf38c9644-tilnettsidehvit-Model.png",
+    demo: "http://maytek.no/",
+  },
 ];
