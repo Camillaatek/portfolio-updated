@@ -6,7 +6,6 @@ import { useNavigate } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
-// import { ProjectData } from "./components/projects/Data";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <Home />
       <About />
       <Projects />
-
       <Contact />
     </>
   );
