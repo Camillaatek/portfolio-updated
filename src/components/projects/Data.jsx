@@ -23,6 +23,14 @@ export const ProjectData = [
   },
   {
     id: "3",
+    title: "Maytek.no",
+    description:
+      "Maytek AS er et firma som driver med konsulent tjenester innen teknisk tegning. Nettsiden er laget og designet i Wordpress.",
+    image: "http://maytek.no/onewebstatic/abf38c9644-tilnettsidehvit-Model.png",
+    demo: "http://maytek.no/",
+  },
+  {
+    id: "4",
     title: "Electronics",
     description:
       "Electronics is a fictional e-commerce website for Semester Project 2. The goal was to create both customer-facing and admin sections. I used HTML, JavaScript and for styling SASS. The website has featured products on home page and a search function. Login function with JWT tokens that will take you to the admin page. Adding an item to the cart saves it in LocalStorage, and also calculates the total sum.",
@@ -32,7 +40,7 @@ export const ProjectData = [
     demo: "https://gallant-cori-6dbe45.netlify.app/",
   },
   {
-    id: "4",
+    id: "5",
     title: "Trillo",
     description:
       "Trillo was made following the course: Advanced CSS and SASS: Flexbox, Grid, Animations and More! and focused on learning advanced form of flexbox. The website has a beautiful design and is responsive.",
@@ -42,7 +50,7 @@ export const ProjectData = [
     demo: "https://trillo-orpin.vercel.app/",
   },
   {
-    id: "5",
+    id: "6",
     title: "Haunted House",
     description:
       "Haunted house is a graveyard with ghosts flying around. This is a project i made while learning Three.js! Three.js is a JavaScript Library used to create and display animated 3D in a web browser using WebGL. Everything is build with code and downloaded textures. There is also a control added so you can change the environment.",
@@ -52,7 +60,7 @@ export const ProjectData = [
     demo: "https://trusting-pare-841e74.netlify.app/",
   },
   {
-    id: "6",
+    id: "7",
     title: "Nexter",
     description:
       "This project was made following the course from Udemy: Advanced CSS and SASS: Flexbox, Grid, Animations and More! In this project we focused on learning advanced CSS Grid. It is also fully responsive.",
@@ -62,7 +70,7 @@ export const ProjectData = [
     demo: "https://nexter-blush.vercel.app/",
   },
   {
-    id: "7",
+    id: "8",
     title: "Science Museum",
     description:
       "Science Museum is a project we had during: HTML & CSS. It is hardcoded content with responsive layout.",
@@ -70,13 +78,5 @@ export const ProjectData = [
       "https://user-images.githubusercontent.com/69843303/189680267-9fbca21a-aa3a-40c1-9e3c-224130438d39.JPG",
     github: "https://github.com/Camillaatek/SA-nettside",
     demo: "https://stupefied-hawking-661b91.netlify.app/index.html",
-  },
-  {
-    id: "8",
-    title: "Maytek.no",
-    description:
-      "Maytek AS er et firma som driver med konsulent tjenester innen teknisk tegning. Nettsiden er laget og designet i Wordpress.",
-    image: "http://maytek.no/onewebstatic/abf38c9644-tilnettsidehvit-Model.png",
-    demo: "http://maytek.no/",
   },
 ];
